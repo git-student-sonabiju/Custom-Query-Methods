@@ -1,0 +1,11 @@
+meta {
+  name: get Most popular products
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/api/reports/popular-products
+  body: none
+  auth: inherit
+}
